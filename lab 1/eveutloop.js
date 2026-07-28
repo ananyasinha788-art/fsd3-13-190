@@ -22,6 +22,7 @@ const main = () => {
     writeData();
     //f1();
     setTimeout(f2,0);
+    f3();
     
     //setInterval(f2,1000);
     setImmediate(f3);
