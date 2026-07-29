@@ -1,4 +1,4 @@
-import { readFile,writeFile,appendFile } from "fs/promises";
+import { readFile,writeFile,appendFile,unlink } from "fs/promises";
 const writeData = async (fname, contents) => {
     await writeFile(fname, contents);
     console.log("File written");
@@ -15,8 +15,12 @@ const readData = async (fname) => {
 const appendData = async (fname, contents) => {
     await appendFile(fname, "\n" + contents);
 };
-await writeData("happy.txt", "I am happy");
+const deleteData = async (fname) => {
+    await unlink(fname);
+    console.log(`${fname} File deleted`);
+};
+/*await writeData("happy.txt", "I am happy");
 await readData("happy.txt");
 await appendData("happy.txt", "I am also sad");
-await readData("happy.txt");
-
+await readData("happy.txt");*/
+await deleteData("happy.txt");
