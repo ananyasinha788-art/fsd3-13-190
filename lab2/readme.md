@@ -24,3 +24,15 @@
      -unlik()
      -link()
      -syslink()
+### crud description 
+each item(id,name,price,qty)
+features--
+4)update
+1)add to cart
+2)show cart
+3)remove from cart
+required files---
+-crud js
+-product.json
+json=javascript object notation 
+-products.json-it contain the product details in array form 
