@@ -36,3 +36,4 @@ required files---
 -product.json
 json=javascript object notation 
 -products.json-it contain the product details in array form 
+-   -D dev dependency
