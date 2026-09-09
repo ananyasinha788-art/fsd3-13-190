@@ -40,3 +40,29 @@ the content type and status code can be send back to client by two ways
 1. res.writeHead
 2. res.setHeader
 3.res.statusCode
+ ## response 
+ 1. res.end()
+ end("any html /content tag)
+ 2.html free 
+ .read by createreadstrewam
+ . pipe with res 
+ ### send html file to client 
+ 1.html file 
+ - read html file using createReadStream
+ -pipe it with res object 
+ 2.html content 
+ send any html  tag/content by using res.end('<any html tag>)
+
+ ### JSON 
+ servers returns data only  not html context  because html context  will be return by front end developer . the data is in json format.
+ Json always storesdata in key value pair enclosed by curely bracket .
+ array can be stored by square bracket [] one pair of the curly bracket will represent one object and its property will be separated by , 
+ ```
+   { 
+    id:1;
+    name:"mobile",2
+    price:25000,
+    rating:4.5,
+    review:200
+   }
+```
