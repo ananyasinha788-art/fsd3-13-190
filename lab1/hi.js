@@ -55,6 +55,7 @@ const showNumberInWords = (num) => {
 
     let digits = String(num);
 
+
     for (let digit of digits) {
         result = result + numberToWord(Number(digit)) + " ";
     }
@@ -63,3 +64,4 @@ const showNumberInWords = (num) => {
 };
 
 console.log(showNumberInWords(12345));
+console.log('hello');
