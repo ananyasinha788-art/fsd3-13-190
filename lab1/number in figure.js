@@ -36,4 +36,5 @@ digits.forEach((d) => {
     inWords +=" " +toWords2(Number(d));
 });
 console.log(inWords);
+console.log('hello');
     
