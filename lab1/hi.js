@@ -64,4 +64,3 @@ const showNumberInWords = (num) => {
 };
 
 console.log(showNumberInWords(12345));
-console.log('hello');
