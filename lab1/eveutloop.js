@@ -3,6 +3,7 @@ import {writeFile} from "fs/promises";
 const f1 = () => {
     
     console.log("F1");
+
 };
 
 const f2 = () => {
@@ -16,6 +17,7 @@ const f3 = () => {
 const writeData= async () => {
     await writeFile("note.txt","i am fs module");
     console.log("file written");
+    console.log('hello');
 };
 const main = () => {
     console.log("main");
