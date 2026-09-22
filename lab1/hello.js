@@ -3,10 +3,12 @@ function sayHello(name){
 }
 const sayHi=(name)=>{
     console.log(`welcome to ${name}`);
+    console.log('hello');
 }
 sayHello('ananya');
 sayHi('ananya');
 sayHi('wow');
+
 function sum(a,b){
     return a+b;
 }
