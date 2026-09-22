@@ -10,6 +10,7 @@ task.once("greet",starts);
 task.on("greet", sayHi);
 task.on("greet", (name) => {
   console.log(` ${name} starts shopping`);
+  console.log('hwllo');
 });
 task.on("greet", (name) => {
     console.log(` ${name} log out`);
