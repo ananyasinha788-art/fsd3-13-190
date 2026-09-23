@@ -77,3 +77,10 @@ headers are used to tell the client ,the type of data sent by the server , it ma
 the header can be set by res obj at server side by two ways=
 7.res.setHeader
 8.res.writeHead
+ ### 
+ 1.get - no parameter passed to the server  when we receive all items 
+       - get  all items
+       - post = max time used in  case to add records , we pass the value from body section in json format of API TESTER (echo api)
+2. delete - to dlete any product we pass parameter that is id of  the product from url 
+3. update - put/patch used to update 
+          - we pass id from url and data to update from body 
