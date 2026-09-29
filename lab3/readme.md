@@ -84,3 +84,4 @@ the header can be set by res obj at server side by two ways=
 2. delete - to dlete any product we pass parameter that is id of  the product from url 
 3. update - put/patch used to update 
           - we pass id from url and data to update from body 
+
