@@ -1,6 +1,6 @@
 import express from "express";
 import path from "path";
-import { fileeURLToPath } from "node:url";
+import { fileURLToPath } from "node:url";
 
 const app = express();
 const filename = fileURLToPath(import.meta.url);
